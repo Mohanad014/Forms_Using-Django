@@ -3,5 +3,5 @@ from .models import User
 
 class UserProfileForm(forms.ModelForm):
     class Meta:
-        model = User
+        model = User 
         fields = ['name', 'email', 'password', 'contact_details']
