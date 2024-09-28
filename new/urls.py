@@ -5,4 +5,4 @@ urlpatterns = [
     path('welcome/',views.welcome, name= 'Welcome'),
     path('home/',views.home, name= 'Home'),
 ]
-
+ 
